@@ -9,6 +9,9 @@ pipeline {
         stage('Initialize'){
             steps {
                 sh 'chmod -R 777 ${WORKSPACE}'
+				sh 'whoami'
+				sh 'id'
+				sh 'ls -l /var/run/docker.socket'
             }
         }
 	/*	stage('Clean'){
