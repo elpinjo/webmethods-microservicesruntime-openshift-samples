@@ -9,10 +9,6 @@ pipeline {
         stage('Initialize'){
             steps {
                 sh 'chmod -R 777 ${WORKSPACE}'
-				sh 'whoami'
-				sh 'id'
-				sh 'groupadd msrnamespace'
-				sh 'usermod -a -G msrnamespace root'
             }
         }
 	/*	stage('Clean'){
