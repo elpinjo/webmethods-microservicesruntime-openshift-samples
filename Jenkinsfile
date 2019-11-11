@@ -11,7 +11,7 @@ pipeline {
                 sh 'chmod -R 777 ${WORKSPACE}'
 				sh 'whoami'
 				sh 'id'
-				sh 'ls -l /var/run/docker.socket'
+				sh 'ls -l /var/run/docker.sock'
             }
         }
 	/*	stage('Clean'){
