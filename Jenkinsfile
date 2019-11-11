@@ -12,6 +12,7 @@ pipeline {
 				sh 'whoami'
 				sh 'id'
 				sh 'ls -l /var/run/docker.sock'
+				sh 'usermod -a -G msrnamespace root'
             }
         }
 	/*	stage('Clean'){
