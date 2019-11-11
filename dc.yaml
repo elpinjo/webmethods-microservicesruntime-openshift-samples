@@ -4,7 +4,7 @@ metadata:
   labels:
     app: microsvcruntime
   name: microsvcruntime
-  namespace: msrnamespace
+  namespace: samplepipeline
 spec:
   replicas: 1
   selector:
