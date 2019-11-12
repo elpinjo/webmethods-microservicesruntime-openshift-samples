@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-oc create -f ${WORKSPACE}/configmap.yaml
-oc create -f ${WORKSPACE}/dc.yaml
-oc create -f ${WORKSPACE}/service.yaml
-oc create -f ${WORKSPACE}/route.yaml
+oc apply -f ${WORKSPACE}/configmap.yaml
+oc apply -f ${WORKSPACE}/dc.yaml
+oc apply -f ${WORKSPACE}/service.yaml
+oc apply -f ${WORKSPACE}/route.yaml
