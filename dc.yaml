@@ -39,7 +39,7 @@ spec:
                 key: installdir
                 name: my-config
           image: >-
-            172.30.1.1:5000/msrnamespace/microruntime:v2
+            172.30.1.1:5000/samplepipeline/microruntime:v2
           imagePullPolicy: Always
           name: microsvcruntime
           ports:
@@ -68,5 +68,5 @@ spec:
         from:
           kind: ImageStreamTag
           name: 'microruntime:v2'
-          namespace: msrnamespace
+          namespace: samplepipeline
       type: ImageChange
