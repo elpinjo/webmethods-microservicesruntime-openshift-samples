@@ -4,7 +4,7 @@ metadata:
   name: microsvcruntime
   namespace: samplepipeline
 spec:
-  host: microsvcruntime.usvmapimgmt02.eur.ad.sag
+  host: microsvcruntime.193-26-203-31.nip.io
   port:
     targetPort: 5555-tcp
   to:
