@@ -4,6 +4,4 @@ MAINTAINER SoftwareAG
 
 COPY ./startup/application.properties /opt/softwareag/IntegrationServer/application.properties
 
-USER 1001
-
-#comment
+RUN chmod -R 777 /opt/softwareag/
